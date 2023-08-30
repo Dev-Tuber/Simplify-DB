@@ -8,6 +8,7 @@ npm i simplify-db
 ```
 
 <h2>❓ How to Use</h2>
+<h3>main.js</h3>
 
 ```javascript
 // Call Module
@@ -24,6 +25,11 @@ data.push(newData);
 // Save Edited Data
 database.saveData(data);
 console.log('Data Saved:', data);
+```
+<h3>cmd</h3>
+
+```cmd
+node main.js
 ```
 <br>
 <h4>Made by Dev-Tuber with ❤️</h4>
