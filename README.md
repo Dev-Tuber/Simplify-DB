@@ -3,16 +3,12 @@
 
 <h2>⭐ Download</h2>
 
-```npm
-npm i simplify-db
-```
-
 <h2>❓ How to Use</h2>
 <h3>main.js</h3>
 
 ```javascript
 // Call Module
-const myModule = require('simplify-db');
+const database = require('./database');
 
 // Load data
 const data = database.loadData();
